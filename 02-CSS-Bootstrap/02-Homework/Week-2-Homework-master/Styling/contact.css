@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(180, 182, 186);
+    height: 500px;
+}
+
+#heading-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    margin: 30px auto;
+    max-width: 300px;
+    min-height: 520px;
+    max-height: 700px;
+    border-radius: 13px;
+    margin-top: 25px;
+    background-color: rgb(232, 232, 232);
+}
+
+h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+/* I learned this stuff from Udemy. I bought a few courses to coincide with this bootcamp. The buttons have hovers and change colors and pointers when over them or clicking them */
+.form-group label {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 7px;
+    line-height: 1.0em;
+}
+
+.form-group input {
+    text-align: left;
+    border: black 1px solid;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    text-align: left;
+    border: black 1px solid;
+    width: 100%;
+    min-height: 175px;
+    max-height: 250px;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: lightskyblue;
+    border: black 1px solid;
+    width: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(55, 168, 238);
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin-top: 420px;
+
+}

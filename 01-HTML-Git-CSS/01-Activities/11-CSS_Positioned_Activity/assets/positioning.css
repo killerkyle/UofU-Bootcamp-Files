@@ -1,0 +1,65 @@
+h1 {
+    position: relative;
+    left: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    position: relative; 
+    left: 525px;
+    line-height: 0.7;
+    top: 10px;
+}
+#box-set-1 {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 220px;
+    height: 130px;
+    background: #eee;
+    text-align: center;
+}
+span-1 {
+    line-height: 100px;
+}
+.box-1 {
+    vertical-align: middle;
+    display: inline-block;
+    background-color: violet;
+}
+
+#box-set-2 {
+    position: relative;
+    left: 525px;
+    top: 10px;
+    width: 510px;
+    height: 175px;
+    background: #eee;
+    text-align: center;
+}
+span-2 {
+    line-height: 100px;
+}
+.box-2 {
+    vertical-align: middle;
+    display: inline-block;
+    background-color: violet;
+}
+
+#box-set-3 {
+    position: absolute;
+    left: 825px;
+    top: 327px;
+    width: 250px;
+    height: 100px;
+    background: #999;
+    text-align: center;
+}
+span-3 {
+    line-height: 100px;
+}
+.box-3 {
+    vertical-align: middle;
+    display: inline-block;
+    background-color: violet;
+}
+    

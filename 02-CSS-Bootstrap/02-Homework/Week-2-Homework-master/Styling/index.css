@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(180, 182, 186);
+    height: 1100px;
+}
+
+#heading-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-color: rgb(232, 232, 232);
+    padding-bottom: 20px;
+    margin-top: 20px;
+    max-block-size: 1200px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+/* Had a dificult time sixing images and placing them to be the same size. So i played around and found that max/min can kind of make this happen. ANy other way to make this easier? */
+
+.responsive-image {
+    max-width: 90% !important;
+    height: auto !important;
+    padding-top: 25px;
+    padding-left: 15px;
+    block-size: 80%;
+}
+/* Is there an easier method to have text fall under an image, form or any element you put inside of a container */
+#about-me-paragraph {
+    padding-top: 15px;
+    padding-right: 15px;
+    line-height: 30px;
+}
+
+#about-me-career {
+    padding-top: 10px;
+    padding-left: 35px;
+    line-height: 35px;
+}
+
+.responsive-image-2 {
+        max-width: 100% !important;
+        height: auto !important;
+        padding-top: 20px;
+        padding-right: 10px;
+        block-size: 80%;
+}
+
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Is there a rule of thumb to place things in order as they go along for other programmers? */
+#container {
+    max-width: 100%;
+    background-color: rgb(34, 33, 34);
+    text-align: center;
+    color: springgreen;
+}
+
+.footer {
+    position: sticky;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin-top: 170px;
+
+}
+
+
+
+
+
+

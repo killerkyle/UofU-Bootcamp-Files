@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      Data Types, User Input, Conditional Logic - Uncommented
+    </title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+      var userName = prompt("What's your name?"); // This is a variable pop up that will ask what your name is
+      var confirmCats = confirm("Do you like cats?"); // This is a variable pop up that will ask if we like cats
+
+      var petName = "Meeses"; // A pop up that will ask the pets name
+      var petType = "Tuxedo Cat"; // Pop up asking what type of cat you have
+      var petAge = 5; // pop up asking what the cats age is
+      var petIsCat = true;// pop up that will confirm true/false if the cat is a cat
+
+      if (confirmCats) {
+        alert(petName + " " + petType + " " + petAge);
+      }
+      else {
+        alert("You don't get my cat's information");
+      }
+
+      if (petIsCat) {
+        alert("My pet is a cat");
+      }
+      else {
+        alert("My pet is not a cat");
+      }
+
+      if (petAge !== 7) {
+        alert("My pet is not 7 years old");
+      }
+
+      if (petAge === 5) {
+        alert("My pet is 5 years old");
+      }
+      else if (petAge < 5) {
+        alert("My pet is less than 5 years old");
+      }
+      else {
+        alert("My pet is older than 5 years old");
+      }
+
+      alert("Welcome to our page " + userName);
+
+      var catAge = prompt("How old is your cat?");
+
+      // Won't work as expected
+      alert(catAge + 2);
+
+      // Works as expected
+      alert(parseInt(catAge) + 2);
+
+    </script>
+  </body>
+</html>

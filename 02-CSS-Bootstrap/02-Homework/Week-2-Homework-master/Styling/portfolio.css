@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(180, 182, 186);
+    height: 500px;
+}
+
+#heading-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    position: relative;
+    background-color: rgb(232, 232, 232);
+    margin-top: 40px;
+    max-block-size: 1200px;
+    border-radius: 20px;
+}
+/* Had a dificult time sixing images and placing them to be the same size. So i played around and found that max/min can kind of make this happen. ANy other way to make this easier? */
+.responsive-image {
+    max-width: 94% !important;
+    min-width: 60% !important;
+    height: auto !important;
+    padding-top: 15px;
+    border: none;
+    block-size: 80%;
+}
+
+.responsive-image-2 {
+    max-width: 97.5% !important;
+    min-width: 60% !important;
+    height: auto !important;
+    padding-top: 15px;
+    border: none;
+    block-size: 80%;
+}
+.responsive-image-3 {
+    max-width: 100% !important;
+    min-width: 60% !important;
+    height: auto !important;
+    padding-top: 15px;
+    padding-top: 15px;
+    border: none;
+    block-size: 80%;
+}
+/* I couldn't figure out how to place a banner over another image. "nesting" I beleive that its called? I looked everywhere and everytime i tried it wouldnt respond correctly */
+.banner-1 {
+    max-width: 94%;
+    padding: 10px;
+    border-bottom: none;
+    background-color: rgba(47, 80, 107, 0.6901960784313725);
+    text-align: center;
+    color: white;
+}
+
+.banner-2 {
+    max-width: 97.5%;
+    padding: 10px;
+    border: none;
+    background-color: rgba(47, 80, 107, 0.6901960784313725);
+    text-align: center;
+    color: white;
+}
+
+.banner-3 {
+    max-width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgba(47, 80, 107, 0.6901960784313725);
+    text-align: center;
+    color: white;
+}
+/* footer was tricky with bootstrap. I couldnt get anything from bootstrap to go to the bottom of the page. So I looked online and found a video and used that as a reference */
+.footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin-top: 560px;
+
+}
